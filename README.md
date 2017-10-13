@@ -50,4 +50,17 @@ Then open `http://localhost:3030` in your browser.
 9. The web app server then **sends the firebase access token to the web browser**, alone with javascript code that initializes firebase on the browser, and then closes the popup window it was launched when the sign in button was clicked.
 10. Now the web browser has the firebase access token which can be used to identify the user, and it can use it to retrieve user profile.
 
+### LinkedIn Reference:
+https://developer.linkedin.com/docs/oauth2
+
+### Note for LinkedIn mobile access token
+[Android LinkedIn SDK produces unusable access tokens](https://stackoverflow.com/a/30082316/2069407)
+
+[Mobile vs. server-side access tokens](https://developer.linkedin.com/docs/android-sdk-auth)
+
+It is important to note that access tokens that are acquired via the Mobile SDK are only useable with the Mobile SDK, and cannot be used to make server-side REST API calls.
+
+Similarly, access tokens that you already have stored from your users that authenticated using a server-side REST API call will not work with the Mobile SDK.
+
+
 
