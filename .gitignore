@@ -1,0 +1,7 @@
+node_modules/
+bin/
+.DS_Store
+npm-debug.log
+
+service-account.json
+config.json

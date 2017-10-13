@@ -1,0 +1,13 @@
+{
+  "linkedin": {
+    "clientId": "",
+    "clientSecret": ""
+  },
+  "auth": {
+   "tokenHost": "https://www.linkedin.com",
+   "tokenPath": "/oauth/v2/accessToken"
+  },
+  "firebase": {
+    "apiKey": ""
+  }
+}
