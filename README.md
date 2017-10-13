@@ -29,10 +29,10 @@ Deploy your security rules:
 ## Run the sample locally
 
 You can run the sample web app locally by running the following in a command line window.
-`
+```
 npm install
 node app.js
-`
+```
 
 Then open `http://localhost:3030` in your browser.
 
